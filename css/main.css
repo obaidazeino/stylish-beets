@@ -4,6 +4,7 @@ html {
   line-height: 1.5;
   font-family: "PT Serif", serif;
   font-size: 1.125rem;
+  font-weight: normal;
 }
 
 * {
@@ -12,7 +13,7 @@ html {
 
 /* font-family: "PT Sans", sans-serif;
 font-family: "PT Serif", serif; */
-h1, h2, nav a {
+h1, .tags, nav a {
   font-family: "PT Sans", sans-serif;
 }
 
@@ -24,7 +25,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-nav ul {
+nav ol {
   list-style-type: none;
 }
 
@@ -52,4 +53,14 @@ section p:first-child {
 
 figure + p {
   font-weight: bold;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
