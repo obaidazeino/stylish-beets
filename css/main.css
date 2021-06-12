@@ -23,10 +23,33 @@ h1, h2 {
 h1 {
   font-size: 1.5rem;
 }
-nav a {
-  text-decoration: none;
-  color: #8f2440;
-}
+
 nav ul {
   list-style-type: none;
+}
+
+aside ul, cite, footer {
+  font-size: 0.8rem;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+section p:first-child {
+  font-weight: bold;
+}
+
+figure + p {
+  font-weight: bold;
 }
