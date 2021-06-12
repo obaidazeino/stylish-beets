@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+}
+
+body {
   background-color: #c9b5ab;
   line-height: 1.5;
   font-family: "PT Serif", serif;
