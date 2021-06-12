@@ -16,7 +16,7 @@ h1, .tags, nav a {
 }
 
 h1, h2 {
-  color: ##222;
+  color: #222;
 }
 
 h1 {
@@ -62,4 +62,20 @@ figcaption {
 img {
   width: 100%;
   height: auto;
+}
+
+section ol {
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.no-bold {
+  font-weight: normal;
+}
+
+aside ul {
+  list-style-type: circle;
 }
