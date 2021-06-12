@@ -16,7 +16,7 @@ h1, .tags, nav a {
 }
 
 h1, h2 {
-  color: #3f1622;
+  color: ##222;
 }
 
 h1 {
@@ -28,7 +28,7 @@ nav ol {
 }
 
 aside ul, cite, footer {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 a {
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #222;
+  color: #3f1622;
   text-decoration: underline;
 }
 
