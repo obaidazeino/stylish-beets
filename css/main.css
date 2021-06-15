@@ -10,7 +10,7 @@ body {
   background-color: #c9b5ab;
   line-height: 1.5;
   font-family: "PT Serif", serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: normal;
 }
 
@@ -86,4 +86,8 @@ dt {
 
 aside ul {
   list-style-type: circle;
+}
+
+p {
+  font-size: 1rem;
 }
